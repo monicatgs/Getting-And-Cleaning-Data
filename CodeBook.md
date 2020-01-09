@@ -4,7 +4,7 @@ Source information
 
 The data used is on that file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Description of the information:
+#### Description of the information:
 
 We are working with information from an experiment that includes:
 
@@ -14,7 +14,7 @@ We are working with information from an experiment that includes:
 
 The information has been clasified on test and train so we get separate files for this two options 
 
-Files description
+##### Files description
 
  * General information
 	* activity_labels.txt: codes and names for the 6 activities
@@ -30,24 +30,24 @@ Files description
 	* subject_train.txt: 7352 subjects id related to the measures on the file x_train.txt
 
 
-Getting and processing information
+##### Getting and processing information
 
-* train_main_info: data.frame with information from x_train.txt
-	* test_main_info:  data.frame with information from x_test.txt
-	* main_info: bind of the two main info files
+ * train_main_info: data.frame with information from x_train.txt
+ * test_main_info:  data.frame with information from x_test.txt
+ * main_info: bind of the two main info files
 
-	* train_activity_info: data.frame with the information from y_train.txt
-	* test_activity_info: data.frame with the information from y_test.txt
-	* activity_info: bind of the two activity data frames
+ * train_activity_info: data.frame with the information from y_train.txt
+ * test_activity_info: data.frame with the information from y_test.txt
+ * activity_info: bind of the two activity data frames
 
-	* train_subject_info: data.frame with the information from subject_train.txt 
-	* test_subject_info: data.frame with the information from subject_test.txt
-	* subject_info: bind of the two subject data frames
+ * train_subject_info: data.frame with the information from subject_train.txt 
+ * test_subject_info: data.frame with the information from subject_test.txt
+ * subject_info: bind of the two subject data frames
 
-	* activity_labels: data.frame with the information from activity_labels.txt
-	* features:  data.frame with the information from features_info.txt
+ * activity_labels: data.frame with the information from activity_labels.txt
+ * features:  data.frame with the information from features_info.txt
 
-Required actions:
+##### Required actions:
 
 1 Merges the training and the test sets to create one data set
   - main_info will contain the data set with test and trainining information
@@ -64,4 +64,4 @@ Required actions:
 
 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-- The file tidy_information.txt will be generated on the working directory containing the mean of each variable  group by subject and activity
+ - The file tidy_information.txt will be generated on the working directory containing the mean for each feature by subject and activity
