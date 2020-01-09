@@ -24,7 +24,7 @@ Files description
 	* x_test.txt: 2947 measures for 561 features
 	* y_test.txt: 2947 activities id related to the mesures on x_test.txt
 	* subject_test.txt: 2947 subjects id related to the measures on the file x_test.txt
- *Train information
+ * Train information
 	* x_train.txt: 7352 measures for 561 features
 	* y_train.txt: 7352 activities id related to the mesures on x_train.txt
 	* subject_train.txt: 7352 subjects id related to the measures on the file x_train.txt
