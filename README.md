@@ -1,7 +1,6 @@
 # Getting-And-Cleaning-Data
 
-This proyect consist on take information from 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and process as required. 
+This proyect takes information from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The proyect include. 
 
@@ -17,4 +16,4 @@ The proyect include.
 	* Write the information on the tidy dataset to the file tidy_information.txt, on the working directory 
 
 * File CodeBook.md describing variables, data and transformations done. 
-* File tidy_information.txt with the tidy information:mean for each feature by subject and activity
+* File tidy_information.txt with the tidy information: mean for each feature by subject and activity
